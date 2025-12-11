@@ -1,0 +1,115 @@
+.cr7{
+    border-radius: 60px;
+    width: 100px;
+    height: 100px;
+    
+    
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+.sitio-header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.titulo-principal {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.navegacion-principal ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navegacion-principal ul li {
+    margin: 0 15px;
+}
+
+.navegacion-principal a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Contenido principal y secciones */
+.contenido-principal {
+    width: 80%;
+    margin: 0 auto;
+}
+
+section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #007BFF;
+}
+
+.seccion-proyectos {
+    background: #fff;
+}
+
+.contenedor-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    display: flex;
+}
+
+.proyecto-card {
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.proyecto-card img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: inline-block;
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+/* Pie de página */
+.sitio-footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+}
+.gmail{
+    width: 20px;
+    height: 20px;
+    margin: -2px;
+}
+.telefono{
+    width: 20px;
+    height: 20px;
+    margin: -2px;
+}
